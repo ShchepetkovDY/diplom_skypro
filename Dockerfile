@@ -14,7 +14,7 @@ COPY . /usr/src/app
 WORKDIR /usr/src/app
 
 COPY . /usr/src/app
-ENTRYPOINT ["bash", "entrypoint.sh"]
+#ENTRYPOINT ["bash", "entrypoint.sh"]
 
 EXPOSE 8000
 
